@@ -16,7 +16,7 @@ const Home = () => {
                     const username = email.substring(0, email.indexOf('@'));
                     setUsername(username);
                 } else {
-                    setUsername(null);
+                     setUsername(null);
                 }
                 setIsloading(false)
             });
